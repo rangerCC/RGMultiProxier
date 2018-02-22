@@ -10,6 +10,18 @@
 		A3AF3358203F3173002685CB /* RGMultiProxier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AF334E203F3172002685CB /* RGMultiProxier.framework */; };
 		A3AF335D203F3173002685CB /* RGMultiProxierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF335C203F3173002685CB /* RGMultiProxierTests.m */; };
 		A3AF335F203F3173002685CB /* RGMultiProxier.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AF3351203F3172002685CB /* RGMultiProxier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3AF3370203F3213002685CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF336F203F3213002685CB /* AppDelegate.m */; };
+		A3AF3373203F3213002685CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF3372203F3213002685CB /* ViewController.m */; };
+		A3AF3376203F3213002685CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AF3374203F3213002685CB /* Main.storyboard */; };
+		A3AF3378203F3213002685CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3AF3377203F3213002685CB /* Assets.xcassets */; };
+		A3AF337B203F3213002685CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3AF3379203F3213002685CB /* LaunchScreen.storyboard */; };
+		A3AF337E203F3213002685CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF337D203F3213002685CB /* main.m */; };
+		A3AF339F203F3227002685CB /* RGMultiProxier.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AF334E203F3172002685CB /* RGMultiProxier.framework */; };
+		A3AF33A2203F327A002685CB /* RGProxier.h in Headers */ = {isa = PBXBuildFile; fileRef = A3AF33A0203F327A002685CB /* RGProxier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3AF33A3203F327A002685CB /* RGProxier.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF33A1203F327A002685CB /* RGProxier.m */; };
+		A3AF33A6203F3504002685CB /* RGTableDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF33A5203F3504002685CB /* RGTableDelegate.m */; };
+		A3AF33A9203F3510002685CB /* RGTableDatasource.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF33A8203F3510002685CB /* RGTableDatasource.m */; };
+		A3AF33AC203F3556002685CB /* RGScrollDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AF33AB203F3556002685CB /* RGScrollDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +41,28 @@
 		A3AF3357203F3173002685CB /* RGMultiProxierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RGMultiProxierTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3AF335C203F3173002685CB /* RGMultiProxierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGMultiProxierTests.m; sourceTree = "<group>"; };
 		A3AF335E203F3173002685CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AF336C203F3212002685CB /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3AF336E203F3213002685CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3AF336F203F3213002685CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3AF3371203F3213002685CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3AF3372203F3213002685CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3AF3375203F3213002685CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3AF3377203F3213002685CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3AF337A203F3213002685CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3AF337C203F3213002685CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AF337D203F3213002685CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3AF3387203F3213002685CB /* DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTests.m; sourceTree = "<group>"; };
+		A3AF3389203F3213002685CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AF3392203F3213002685CB /* DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUITests.m; sourceTree = "<group>"; };
+		A3AF3394203F3213002685CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3AF33A0203F327A002685CB /* RGProxier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGProxier.h; sourceTree = "<group>"; };
+		A3AF33A1203F327A002685CB /* RGProxier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGProxier.m; sourceTree = "<group>"; };
+		A3AF33A4203F3504002685CB /* RGTableDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGTableDelegate.h; sourceTree = "<group>"; };
+		A3AF33A5203F3504002685CB /* RGTableDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGTableDelegate.m; sourceTree = "<group>"; };
+		A3AF33A7203F3510002685CB /* RGTableDatasource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGTableDatasource.h; sourceTree = "<group>"; };
+		A3AF33A8203F3510002685CB /* RGTableDatasource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGTableDatasource.m; sourceTree = "<group>"; };
+		A3AF33AA203F3556002685CB /* RGScrollDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RGScrollDelegate.h; sourceTree = "<group>"; };
+		A3AF33AB203F3556002685CB /* RGScrollDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RGScrollDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A3AF3369203F3212002685CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AF339F203F3227002685CB /* RGMultiProxier.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,7 +97,11 @@
 			children = (
 				A3AF3350203F3172002685CB /* RGMultiProxier */,
 				A3AF335B203F3173002685CB /* RGMultiProxierTests */,
+				A3AF336D203F3213002685CB /* Demo */,
+				A3AF3386203F3213002685CB /* DemoTests */,
+				A3AF3391203F3213002685CB /* DemoUITests */,
 				A3AF334F203F3172002685CB /* Products */,
+				A3AF339E203F3227002685CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +110,7 @@
 			children = (
 				A3AF334E203F3172002685CB /* RGMultiProxier.framework */,
 				A3AF3357203F3173002685CB /* RGMultiProxierTests.xctest */,
+				A3AF336C203F3212002685CB /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +120,8 @@
 			children = (
 				A3AF3351203F3172002685CB /* RGMultiProxier.h */,
 				A3AF3352203F3172002685CB /* Info.plist */,
+				A3AF33A0203F327A002685CB /* RGProxier.h */,
+				A3AF33A1203F327A002685CB /* RGProxier.m */,
 			);
 			path = RGMultiProxier;
 			sourceTree = "<group>";
@@ -86,6 +135,53 @@
 			path = RGMultiProxierTests;
 			sourceTree = "<group>";
 		};
+		A3AF336D203F3213002685CB /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A3AF336E203F3213002685CB /* AppDelegate.h */,
+				A3AF336F203F3213002685CB /* AppDelegate.m */,
+				A3AF3371203F3213002685CB /* ViewController.h */,
+				A3AF3372203F3213002685CB /* ViewController.m */,
+				A3AF3374203F3213002685CB /* Main.storyboard */,
+				A3AF3377203F3213002685CB /* Assets.xcassets */,
+				A3AF3379203F3213002685CB /* LaunchScreen.storyboard */,
+				A3AF337C203F3213002685CB /* Info.plist */,
+				A3AF337D203F3213002685CB /* main.m */,
+				A3AF33A4203F3504002685CB /* RGTableDelegate.h */,
+				A3AF33A5203F3504002685CB /* RGTableDelegate.m */,
+				A3AF33A7203F3510002685CB /* RGTableDatasource.h */,
+				A3AF33A8203F3510002685CB /* RGTableDatasource.m */,
+				A3AF33AA203F3556002685CB /* RGScrollDelegate.h */,
+				A3AF33AB203F3556002685CB /* RGScrollDelegate.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		A3AF3386203F3213002685CB /* DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AF3387203F3213002685CB /* DemoTests.m */,
+				A3AF3389203F3213002685CB /* Info.plist */,
+			);
+			path = DemoTests;
+			sourceTree = "<group>";
+		};
+		A3AF3391203F3213002685CB /* DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3AF3392203F3213002685CB /* DemoUITests.m */,
+				A3AF3394203F3213002685CB /* Info.plist */,
+			);
+			path = DemoUITests;
+			sourceTree = "<group>";
+		};
+		A3AF339E203F3227002685CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3AF335F203F3173002685CB /* RGMultiProxier.h in Headers */,
+				A3AF33A2203F327A002685CB /* RGProxier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +233,23 @@
 			productReference = A3AF3357203F3173002685CB /* RGMultiProxierTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		A3AF336B203F3212002685CB /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3AF339B203F3213002685CB /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				A3AF3368203F3212002685CB /* Sources */,
+				A3AF3369203F3212002685CB /* Frameworks */,
+				A3AF336A203F3212002685CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = A3AF336C203F3212002685CB /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +267,10 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
+					A3AF336B203F3212002685CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = A3AF3348203F3172002685CB /* Build configuration list for PBXProject "RGMultiProxier" */;
@@ -161,6 +279,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = A3AF3344203F3172002685CB;
 			productRefGroup = A3AF334F203F3172002685CB /* Products */;
@@ -169,6 +288,7 @@
 			targets = (
 				A3AF334D203F3172002685CB /* RGMultiProxier */,
 				A3AF3356203F3173002685CB /* RGMultiProxierTests */,
+				A3AF336B203F3212002685CB /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -188,6 +308,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A3AF336A203F3212002685CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AF337B203F3213002685CB /* LaunchScreen.storyboard in Resources */,
+				A3AF3378203F3213002685CB /* Assets.xcassets in Resources */,
+				A3AF3376203F3213002685CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AF33A3203F327A002685CB /* RGProxier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +334,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3AF335D203F3173002685CB /* RGMultiProxierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3AF3368203F3212002685CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3AF33A6203F3504002685CB /* RGTableDelegate.m in Sources */,
+				A3AF3373203F3213002685CB /* ViewController.m in Sources */,
+				A3AF33AC203F3556002685CB /* RGScrollDelegate.m in Sources */,
+				A3AF337E203F3213002685CB /* main.m in Sources */,
+				A3AF33A9203F3510002685CB /* RGTableDatasource.m in Sources */,
+				A3AF3370203F3213002685CB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +359,25 @@
 			targetProxy = A3AF3359203F3173002685CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3AF3374203F3213002685CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AF3375203F3213002685CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3AF3379203F3213002685CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3AF337A203F3213002685CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A3AF3360203F3173002685CB /* Debug */ = {
@@ -389,6 +552,34 @@
 			};
 			name = Release;
 		};
+		A3AF3395203F3213002685CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranger.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3AF3396203F3213002685CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ranger.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -415,6 +606,15 @@
 			buildConfigurations = (
 				A3AF3366203F3173002685CB /* Debug */,
 				A3AF3367203F3173002685CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3AF339B203F3213002685CB /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3AF3395203F3213002685CB /* Debug */,
+				A3AF3396203F3213002685CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
